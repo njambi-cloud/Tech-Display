@@ -31,6 +31,18 @@ function TechList () {
     .then((technology) => setTechnology(technology))
 }, [])
 
+
+function handleDelete (id) {
+    fetch(`http://localhost:3000/technology/${id}`, {
+      method: "DELETE",
+
+    })
+      .then((res) => res.json())
+      .then(() => {
+        const updatedTech =technology.filter((tech) => tech.id !==id)
+        setTechnology(updatedTech)
+      })
+  }
     const techList = technology.map((item) => {
         return(
             <div key={item.id} className="trending">
@@ -41,7 +53,8 @@ function TechList () {
               </div>
               <img src={item.image} alt="Tech Display Photos"/>
               </div>
-              <div key ={item.id} onClick={handleClickLike} className="image"><img src={icon} alt="Icon" onClick={toggleFavorite}/></div>
+              <button onClick={handleDelete}>x</button>
+              <div key ={item.id} onClick={handleClickLike} className="image"><img id="myI" src={icon} alt="Icon" onClick={toggleFavorite}/></div>
               <h5>{likes} Likes</h5>
             </div>
         )

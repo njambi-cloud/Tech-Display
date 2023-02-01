@@ -1,39 +1,39 @@
 {
-    "techology": [
-      {
-        "id": 1,
-        "title": "Bioenergy",
-        "description": "Energy derived from biomass or biofuel has the potential to generate far more of the power used by human society than it does today, and in recent years we have seen a strong trend towards attempting to unlock this potential.",
-        "category": "Energy",
-        "image": "https://cdn1.vogel.de/unsafe/800x0/smart/images.vogel.de/vogelonline/bdb/773800/773814/original.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Telemedicine",
-        "description": "To deliver this, new generation wearable technologies are equipped with heart rate, stress, and blood oxygen detectors, enabling healthcare professionals to accurately monitor vital signs in real-time",
-        "category": "Medicine",
-        "image": "https://www.netscribes.com/wp-content/uploads/2020/12/telemedicine_technology_blog_image.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Autonomous vehicles",
-        "description": "Reducing the need for human input into driving, delivery, and warehousing offers the potential for significant cost reduction and asset optimization.",
-        "category": "Transport",
-        "image": "https://www.automotiveplastics.com/wp-content/uploads/Redundant-Safety-iStock-872673304.jpg"
-      },
-      {
-        "title": "Artificial Intelligence",
-        "description": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.",
-        "category": "Computer",
-        "image": "https://bernardmarr.com/wp-content/uploads/2021/12/Future-Developments-of-AI.jpg",
-        "id": 4
-      },
-      {
-        "title": "Robotics",
-        "description": "Robotics significantly help to improve safety. For instance, remotely controlled, wireless underground cable cutters can be used instead of putting humans at life-threatening risk.",
-        "category": "Electrical",
-        "image": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000013073/298d7f30b2f84ab1b2ece190fe98f668.jpg",
-        "id": 5
-      }  
-    ]
-  } 
+  "techology": [
+    {
+      "id": 1,
+      "title": "Bioenergy",
+      "description": "Energy derived from biomass or biofuel has the potential to generate far more of the power used by human society than it does today, and in recent years we have seen a strong trend towards attempting to unlock this potential.",
+      "category": "Energy",
+      "image": "https://cdn1.vogel.de/unsafe/800x0/smart/images.vogel.de/vogelonline/bdb/773800/773814/original.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Telemedicine",
+      "description": "To deliver this, new generation wearable technologies are equipped with heart rate, stress, and blood oxygen detectors, enabling healthcare professionals to accurately monitor vital signs in real-time",
+      "category": "Medicine",
+      "image": "https://www.netscribes.com/wp-content/uploads/2020/12/telemedicine_technology_blog_image.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Autonomous vehicles",
+      "description": "Reducing the need for human input into driving, delivery, and warehousing offers the potential for significant cost reduction and asset optimization.",
+      "category": "Transport",
+      "image": "https://www.automotiveplastics.com/wp-content/uploads/Redundant-Safety-iStock-872673304.jpg"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "description": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.",
+      "category": "Computer",
+      "image": "https://bernardmarr.com/wp-content/uploads/2021/12/Future-Developments-of-AI.jpg",
+      "id": 4
+    },
+    {
+      "title": "Robotics",
+      "description": "Robotics significantly help to improve safety. For instance, remotely controlled, wireless underground cable cutters can be used instead of putting humans at life-threatening risk.",
+      "category": "Electrical",
+      "image": "https://www.hyundaimotorgroup.com/image/upload/asset_library/MDA00000000000013073/298d7f30b2f84ab1b2ece190fe98f668.jpg",
+      "id": 5
+    }
+  ]
+}
