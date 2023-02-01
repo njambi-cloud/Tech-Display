@@ -39,6 +39,17 @@ function NavBar () {
       </NavLink>
 
       <NavLink
+        to="/contact"
+        exact
+        style={linkStyles}
+        activeStyle={{
+        background: "darkblue",
+        }}
+      >
+        Contact
+      </NavLink>
+
+      <NavLink
         to="/techlist"
         exact
         style={linkStyles}
