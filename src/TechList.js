@@ -26,7 +26,7 @@ function TechList () {
   }
 
  useEffect(() => {
-  fetch ("http://localhost:8000/techology")
+  fetch ("http://localhost:3000/techology")
     .then((r) => r.json())
     .then((technology) => setTechnology(technology))
 }, [])

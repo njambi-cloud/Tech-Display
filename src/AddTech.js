@@ -12,7 +12,7 @@ function AddTech ({onAddTech}) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        fetch("http://localhost:8000/techology", {
+        fetch("http://localhost:3000/techology", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

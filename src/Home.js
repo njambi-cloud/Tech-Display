@@ -3,6 +3,11 @@ import NavBar from "./NavBar"
 import Slider from "./Slider"
 
 function Home () {
+    const container = {
+        width: "500px",
+        height: "280px",
+        margin: "0 auto",
+    }
 
     return (
         <div className="home-header">
