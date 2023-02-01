@@ -53,7 +53,7 @@ function TechList () {
          </div>
           <h1>Trends in Technology</h1>
           <button className="add-trend" onClick={handleShowForm}>{showForm ? "Add Trend" : "Hide Form"}</button>
-            {!showForm ? <AddTrendForm onaddTech={onAdd}/> : showForm}
+            {!showForm ? <AddTech onaddTech={onAdd}/> : showForm}
             {techList}
             
         </div>
