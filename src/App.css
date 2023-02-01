@@ -8,3 +8,25 @@
 .home{
   color: white;
 }
+.home > h2{
+  width: 250px;
+  margin-left: 250px;
+  margin-top: 40px;
+  font-size: 40px;
+}
+.home > h4{
+  float: right;
+  width: 300px;
+  margin-right: 50px;
+  font-size: 35px;
+}
+.home-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background-color: rgb(232, 230, 230);
+}
+.home-nav > h1{
+  font-size: 40px;
+}
