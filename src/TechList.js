@@ -5,6 +5,12 @@ function TechList () {
   const [technology, setTechnology] = useState([]);
   const [likes, setLikes] = useState(0)
   const [showForm, setShowForm] = useState(true)
+  const [isFavorite, setIsFavorite] = useState(false)
+
+  function toggleFavorite() {
+    setIsFavorite((isFavorite) => !isFavorite)
+  }
+  let icon=!isFavorite? "https://www.pngall.com/wp-content/uploads/5/Like-Button-PNG-Image-File.png" : "https://i.pinimg.com/originals/96/a2/71/96a27139e8352b383677452d7dd6edd2.jpg"
 
   function handleClickLike (e) {
     setLikes((prevLikes) => prevLikes + 1)

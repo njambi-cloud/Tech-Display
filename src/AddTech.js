@@ -28,7 +28,7 @@ function AddTech ({onAddTech}) {
     
     return (
         <div>
-            <h2>Add a new trend</h2>
+            <h2>Add a new tech</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-container">
                     <div className="small-inputs">
