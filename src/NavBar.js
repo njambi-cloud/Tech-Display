@@ -38,7 +38,6 @@ function NavBar () {
         About
       </NavLink>
 
-
       <NavLink
         to="/techlist"
         exact
@@ -47,7 +46,7 @@ function NavBar () {
         background: "darkblue",
         }}
       >
-        Techs
+        Technologies
       </NavLink>
         </div>
     )

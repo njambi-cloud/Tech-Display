@@ -1,4 +1,5 @@
 import React from "react"
+import NavBar from "./NavBar"
 
 function Home () {
 
@@ -6,6 +7,7 @@ function Home () {
         <div className="home-header">
             <div className="home-nav">
                 <h1>Tech Display</h1>
+                <NavBar />
             </div>
         
             <div className="home">

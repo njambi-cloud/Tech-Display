@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from "react"
 import AddTech from "./AddTech";
+import NavBar from "./NavBar";
 
 function TechList () {
   const [technology, setTechnology] = useState([]);
@@ -49,6 +50,7 @@ function TechList () {
         <div className="trendlist">
          <div className="nav-container">
           <div className="nav">
+          <NavBar/>
             </div>
          </div>
           <h1>Trends in Technology</h1>
